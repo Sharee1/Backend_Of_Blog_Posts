@@ -62,8 +62,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public void deleteUser(Integer userId) {
 
-       Optional<User> user= this.userRepository.findById(userId);
-       this.userRepository.delete(user);
+//       Optional<User> user= this.userRepository.findById(userId);
+//       this.userRepository.delete(user);
 
     }
 
